@@ -1,0 +1,169 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/en/editor.html?c=bar-negative2&code=MYewdgzgLgBMEDcAiBDKKYF4YG0BQMhROA5CmCCQDQwlQjoA2A-sABYCuCKzAtr9VoATAJYoIrTtz4oREgKz9BJUeMlcevWRICMABiUBdKgSKEcAJj06AzDQsAOPTR0AWGgE5jps5evuYVz1XADoANhcHF3lvM3MrHXkaGwcwkIB2FwiYLxM43ATsiw8kmB1Msr1YuL9y-x0dENKGmhi8moSomHSw0K7HeurfBI8aVw90kNGYC2awoeIrK1aPRrsy6YaF-L0LHWSHByaXTZ1tgt2LTxTw5IqLV3O_C3XXMPlbsq6defbh3YCNnSRyuM32ZUef0Wu1KrgcHhC4IsFXKhh8MEMAG50XhQJBYAAzESMKAAUwATqShKh0Fg4IgaSgQhBGCJgKSABQ6ACUISJJIpHPJIAA7lgAHwwYUinBVGDi7AJeQwABkKqlotlhhgAB5FQDudi8dAYOQQBA6fyyZTqWgmVoAA5C0USjUyqqG3HgE30JgAYSkGGwVopVMZIUdzrFmEl0pwZ09xtgqggAY0il4luJ1rDdojKCd0tdcYshkT3uTYlTgf0_CzApt4cjRZjbpwNjL2K9-Jg3HJYmAKBAdJwWO7JrNEAAaih-yhB8PsKPsQSQOSYBzGKTYCI6TpMTBdzqYL6UIw09wQluwABzKBsA8iADUT-5MAA3qZJzO5wuQg6OAgNgORDRs7RwERDC1T1CD7Ach3_QDgNPc9Awg7UAFoTwYM8LxQCCYCwhNsQAXzwcdYEYFAACNSUYAAlEQbzYWBsE_QgHXNEQoBEcAAC5aH7ZioBIPASKNCsYCo2jGAAGVJAlWI_UxOIgbjeLAASSC3RTRPE8ikxgIQ7TpOD5wQyMOQQGgRDfVsOXY3szw4UkBOs0xpLotzdRgPQYAAfikmi6MY4SYAEzy5IUqB2m40leAAZSgABPLcBPfOAQEYNdvIVXyAtoG9KVJMASHCwSqTKsiSO5T08BAB0ePAOlHJ4qA0uUswyQADygLSfzEABzgBj4djLgQNTWADheA4Kjxs49czQ3JVTRmA1CJgAAxFAAC8SvGv1ZzAFAAC_qIwLCABUCwpEAAEPNoABQAIRCUTCBI9p6CyniHXS9EoCEm8KS0lBurkah0XBuQnpAEQwGtAH8hSh1XNoICUCEUUPqIMjPvaIqRCEZGiHof6YCcKFqIYeheAEmw9FML7TG6gBBCGIFJwhUfRkhuEYFyobMVT1P42gaagOnhaICAHVZKBZIR9HHLMVkwFJJLUpV9EuuStGtIgLLidxsx8bx5n2gQOQODPABZAtuZgXgEYEh37wjBGORCH2zIXbkoS0bq3bQNh82673fdneCQAD9FRF4Eq1PF5x0TXEQSr62gEApHjB0YGWeYarSXaEIQt0LqTooE_QoQR-jyBBp3CFAbLyQE0gbWUIrSRKkg0TNqEQA4KAAHkCQb28dfyVuctoABiMuhErwgGvnbjkoEvQQhsdEWbMfPpukjqgZcy3TGSjm5Cd3mtMHMkbzXZLK5hiAlY19KYCA0UBIJM8IFJDAfeRBX6yWCowT-38RS_3_oA4BhBX5XTZAAa0gWwH-MA_6MAAUAqEcsFbvxVl_dB0CTzkhcrg-OdoBLfmjuZEAdcwA53JAAgSp9STn0IAA_spIua4HRKrIgJ1E79ToSNSgUIeb6z5hdckK8jLUIUegSRQUZLN1liQth5DSQqMIKuckWgpag1oO-aiJFTYWzNqYaoxl0AAC0QAgHpvwswgipEGwxqyIQFJ5GX05gASTAN44OvkVHQFnFnVO-QDo1z0EzQeAjdYnmkVpBGalvG-KvhAQJwSt572sWJTEQA
+	⚠ Please be aware that this chart is not an official demo of Apache ECharts but is made by user-generated code.
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-stat/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    const csvData = [
+      ['ano', 'total_chuva_mm', 'dias_chuva_mais_5mm', 'dias_chuva_mais_10mm'],
+      [2013, 280, 14, 9],
+      [2014, 404.6, 18, 15],
+      [2015, 386.7, 16, 9],
+      [2016, 295, 17, 10],
+      [2017, 211.5, 11, 5],
+      [2018, 764.8, 28, 21],
+      [2019, 497.9, 25, 16],
+      [2020, 591.3, 19, 11],
+      [2021, 388.5, 19, 11],
+      [2022, 938.6, 37, 24],
+      [2023, 465.6, 18, 16],
+      [2024, 378.2, 21, 14],
+      [2025, 489.1, 27, 17]
+    ];
+    
+const filteredData = csvData.slice(1).filter(row => row[0] >= 2015 && row[0] <= 2024);
+const anos = filteredData.map(row => row[0]);
+const totalChuva = filteredData.map(row => row[1]);
+const diasChuva5mm = filteredData.map(row => row[2]);
+const diasChuva10mm = filteredData.map(row => row[3]);
+
+const variacao = [];
+const anosVariacao = [];
+for (let i = 1; i < totalChuva.length; i++) {
+  anosVariacao.push(filteredData[i][0]);
+  variacao.push(totalChuva[i] - totalChuva[i - 1]);
+}
+
+const labelRight = {
+  position: 'right'
+};
+const labelLeft = {
+  position: 'left'
+};
+
+const data = variacao.map((v, i) => ({
+  value: v,
+  label: v < 0 ? labelRight : labelLeft,
+  itemStyle: { color: v >= 0 ? 'green' : 'red' }
+}));
+
+option = {
+  title: {
+    text: 'Variação da chuva acumulada por ano (2015 a 2024) - Fazenda Carnaúba - Taperoá - PB.'
+  },
+  tooltip: {
+    trigger: 'axis',
+    axisPointer: {
+      type: 'shadow'
+    }
+  },
+  grid: {
+    top: 80,
+    bottom: 30
+  },
+  xAxis: {
+    type: 'value',
+    position: 'bottom',
+    splitLine: {
+      lineStyle: {
+        type: 'solid'
+      }
+    }
+  },
+  visualMap: {
+    min: Math.min(...variacao),
+    max: Math.max(...variacao),
+    dimension: 0,
+    orient: 'vertical',
+    top: 'middle',
+    left: 10,
+    inRange: {
+      color: ['red', 'green']
+    },
+    outOfRange: {
+      color: '#ddd',
+      opacity: 0.3
+    },
+    calculable: true
+  },
+  yAxis: {
+    type: 'category',
+    axisLine: { show: false },
+    axisLabel: { show: false },
+    axisTick: { show: false },
+    splitLine: { show: true },
+    data: anosVariacao,
+    inverse: true
+  },
+  series: [
+    {
+      name: 'Variação',
+      type: 'bar',
+      data: data,
+      label: {
+        show: true,
+        formatter: '{b}'
+      }
+    }
+  ],
+  dataZoom: [
+    {
+      type: 'slider',
+      yAxisIndex: 0,
+      start: 0,
+      end: 100
+    },
+    {
+      type: 'inside',
+      yAxisIndex: 0
+    }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
